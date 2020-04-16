@@ -4,11 +4,8 @@ function Title(props){
     return (
         <div>
             <h1 className ='title'>
-                What's the Weather?
+                Generate your Country Song!
             </h1>
-            <h2>
-                Enter you zip below
-            </h2>
         </div>
     )
 }

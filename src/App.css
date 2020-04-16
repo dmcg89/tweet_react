@@ -7,6 +7,47 @@
   pointer-events: none;
 }
 
+html {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #dbfeff 30%, #6ed3f4 70%);
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Be Vietnam', sans-serif;
+  color: #3e4849;
+  margin: 20px;
+}
+
+h1 {
+  font-family: 'Be Vietnam', sans-serif;
+  color: #3e4849;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 50px;
+  margin-top: 10vh;
+  margin-bottom: 1px;
+}
+
+.button {
+  font-family: 'Be Vietnam', sans-serif;
+  color: #3e4849;
+  margin: 20px;
+  font-size: 20px;
+  width: 130px;
+  border-radius: 15px;
+  padding: 8px;
+  margin: 8px;
+  background: white;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,3 +77,46 @@
     transform: rotate(360deg);
   }
 }
+
+/* <style type="text/css"> */
+.tweetbutton {
+  inherit: none;
+  height: 16px;
+  display: inline-block;
+  border-radius: 3px;
+
+  /* display: inline-block; */
+  /* font-awesome */
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  /* gradient background -- thanks http://ie.microsoft.com/testdrive/graphics/cssgradientbackgroundmaker/ */
+  background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -ms-linear-gradient(top, #FEFEFE 0%, #DFDFDF 100%);
+  background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -moz-linear-gradient(top, #FEFEFE 0%, #DFDFDF 100%);
+  background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -o-linear-gradient(top, #FEFEFE 0%, #DFDFDF 100%);
+  background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -webkit-gradient(linear, left top, left bottom, color-stop(0, #FEFEFE), color-stop(1, #DFDFDF));
+  background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -webkit-linear-gradient(top, #FEFEFE 0%, #DFDFDF 100%);
+
+  border: 1px solid #cccccc;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+
+  font-weight: bold;
+  font-size: 0.7em;
+  font-family: Arial;
+
+  color: #333333;
+  text-decoration: none;
+}
+
+.tweetbutton:hover {
+  background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -ms-linear-gradient(top, #f7f7f7 0%, #d9d9d9 100%);
+  background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -moz-linear-gradient(top, #f7f7f7 0%, #d9d9d9 100%);
+  background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -o-linear-gradient(top, #f7f7f7 0%, #d9d9d9 100%);
+  background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -webkit-gradient(linear, left top, left bottom, color-stop(0, #f7f7f7), color-stop(1, #d9d9d9));
+  background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -webkit-linear-gradient(top, #f7f7f7 0%, #d9d9d9 100%);
+}
+/* </style> */
+
+/* <!-- Example -->
+<a href="https://twitter.com/intent/tweet?screen_name=jsnwr" class="tweetbutton" title="Tweet to @jsnwr">@jsnwr</a> */

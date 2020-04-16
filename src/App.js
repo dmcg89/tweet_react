@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Song from './Song.js'
 import Title from './Title';
+import TweetButton from './TweetButton'
 // import ErrorMessage from './ErrorMessage';
 // import logo from './logo.svg';
 import './App.css';
@@ -58,42 +59,25 @@ class App extends Component {
     return <Song songData={songData} />;
   }
   render() {
-    const { inputValue } = this.state;
+    // const { inputValue } = this.state;
     return (
       <div className="App">
         <div>
           <Title />
         </div>
-        {/* controlled component pattern */}
-
-        {/** Conditionally render this component */}
-        {this.renderSong()}
-
-        {/** This input uses the controlled component pattern */}
         <form onSubmit={e => this.handleSubmit(e)}>
-
-          {/** 
-          This pattern is used for input and other form elements 
-          Set the value of the input to a value held in component state
-          Set the value held in component state when a change occurs at the input 
-          */}
-          <input 
-            value={ inputValue } 
-            onChange={e => this.setState({ inputValue: e.target.value })}
-            type="text" 
-            pattern="(\d{5}([\-]\d{4})?)"
-            placeholder="enter zip"
-          />
-
-          <button type="submit">Submit</button>
-
+          <button type="submit">Generate Song</button>
         </form>
-
-
+        {this.renderSong()}
+      <div>
+        <TweetButton />
+      </div>
 
       </div>
     );
   }
 }
+
+
 
 export default App;
