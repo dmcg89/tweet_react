@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tweet_react/static/css/main.3824d4d5.chunk.css",
+    "main.js": "/tweet_react/static/js/main.948f8d9c.chunk.js",
+    "main.js.map": "/tweet_react/static/js/main.948f8d9c.chunk.js.map",
+    "runtime-main.js": "/tweet_react/static/js/runtime-main.33f2bea1.js",
+    "runtime-main.js.map": "/tweet_react/static/js/runtime-main.33f2bea1.js.map",
+    "static/js/2.e552c0ac.chunk.js": "/tweet_react/static/js/2.e552c0ac.chunk.js",
+    "static/js/2.e552c0ac.chunk.js.map": "/tweet_react/static/js/2.e552c0ac.chunk.js.map",
+    "index.html": "/tweet_react/index.html",
+    "precache-manifest.b4a41afd2cccda13fafa6cb0e04b5987.js": "/tweet_react/precache-manifest.b4a41afd2cccda13fafa6cb0e04b5987.js",
+    "service-worker.js": "/tweet_react/service-worker.js",
+    "static/css/main.3824d4d5.chunk.css.map": "/tweet_react/static/css/main.3824d4d5.chunk.css.map",
+    "static/js/2.e552c0ac.chunk.js.LICENSE.txt": "/tweet_react/static/js/2.e552c0ac.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33f2bea1.js",
+    "static/js/2.e552c0ac.chunk.js",
+    "static/css/main.3824d4d5.chunk.css",
+    "static/js/main.948f8d9c.chunk.js"
+  ]
+}
