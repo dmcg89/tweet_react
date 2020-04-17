@@ -19,8 +19,8 @@ class App extends Component {
   handleSubmit(e) {
     e.preventDefault()
 
-    // Form an API request URL with the apikey and zip
-    const url = `http://localhost:5000/`;
+    // const url = `http://localhost:5000/`;
+    const url = `https://country-tweet-api.herokuapp.com/`;
 
     // Get data from the API with fetch
     fetch(url).then(res => {
