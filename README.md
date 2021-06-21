@@ -1,4 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## To Run Application Locally
+Ensure API is running locally here: https://github.com/dmcg89/tweetgenv2
+Run: npm install
+Run: npm start
 
 ## Available Scripts
 
